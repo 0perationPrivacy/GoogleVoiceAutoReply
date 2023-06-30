@@ -22,6 +22,7 @@ Script is modified for simplicity.
 - Click `New Project`
 - Name it anything
 - Paste all the code from the `Code.gs` file in this repo to the *Code.gs* file in the Google script
+- Change the phone number to the number you are going to use to send "from" to the Google Voice number
 - Click the save icon `💾`
 
 ## 🏁 3. Create a Trigger 
@@ -32,9 +33,10 @@ Script is modified for simplicity.
 - `Allow` the script to run under your account by clicking through the next few dialog boxes
 
 ## 4. 🧪 Test
-- Modify the `subject` variable in line 3 of the script to include your phone number, and hit `save`
+- Modify the `subject` variable in line 3 of the script to include your phone number, and hit `save` (if you haven't already)
 - Send an sms from your phone number to the Google Voice phone number
 - Wait under a minute for the automated reply. Or click `▶️ Run` on the script page.
+- You should get an email with the SMS and the script will auto reply to the actual sms as well using your account.
 
 
 # ⚠️ Warning
